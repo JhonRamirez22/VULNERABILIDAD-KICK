@@ -1,0 +1,30 @@
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+║   Método: curl_cffi + ViewerWS + PusherWS por viewer   ║
+╚══════════════════════════════════════════════════════════╝
+
+  Stream   : tanizen
+  Viewers  : 5000
+
+  [1/3] Obteniendo info del canal...
+  Channel ID  : 2462868
+  Chatroom ID : 2455345
+  En vivo     : SI 🔴 (1615 viewers) — VICECRAFT 2 - DIA 5 El Señor de los Enanillos - FamilyRP +18 - LEROY'S ELETRICALS !resumen !holyhosting
+
+  [2/3] Obteniendo viewer tokens...
+
+  Obteniendo 5000 viewer tokens via curl_cffi...
+[batch 2] token ERR: Failed to perform, curl: (7) Failed to connect to 
+[batch 2] token ERR: Failed to perform, curl: (7) Failed to connect to 
+[batch 2] token ERR: Failed to perform, curl: (7) Failed to connect to 
+[batch 2] token ERR: Failed to perform, curl: (7) Failed to connect to 
+[batch 2] token ERR: Failed to perform, curl: (7) Failed to connect to 
+[batch 2] token ERR: Failed to perform, curl: (7) Failed to connect to 
+[batch 2] token ERR: Failed to perform, curl: (7) Failed to connect to 
+[batch 2] token ERR: Failed to perform, curl: (7) Failed to connect to 
+[batch 2] token ERR: Failed to perform, curl: (7) Failed to connect to 
+[batch 2] token ERR: Failed to perform, curl: (7) Failed to connect to 
+[batch 2] token ERR: Failed to perform, curl: (7) Failed to connect to 
+[batch 2] token ERR: Failed to perform, curl: (7) Failed to connect to 
+[batch 2] token ERR: Failed to perform, curl: (7) Failed to connect to 

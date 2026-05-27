@@ -54,7 +54,7 @@ function writePy(name, code) {
 
 // Ejecuta Python: stdout capturado, stderr VISIBLE en consola
 function runPy(scriptPath, timeoutMs) {
-    const result = spawnSync('python', [scriptPath], {
+    const result = spawnSync('python3', [scriptPath], {
         timeout:   timeoutMs,
         encoding:  'utf8',
         maxBuffer: 1024 * 1024 * 100,
@@ -173,45 +173,73 @@ progress = {"ok": 0, "fail": 0}
 def get_batch(batch_id, num):
     with semaphore:
         ua = random.choice(UAS)
-        try:
-            session = cffi_requests.Session(impersonate="chrome131")
-            session.get(f"https://kick.com/{CHANNEL}",
-                headers={"User-Agent": ua, "Accept": "text/html,*/*",
-                         "sec-fetch-dest": "document", "sec-fetch-mode": "navigate"},
-                timeout=25)
-        except:
-            print(f"[batch {batch_id}] SKIP: CF session fail", file=sys.stderr)
+        session = None
+        retries = 0
+        max_retries = 3
+        
+        while retries < max_retries and session is None:
+            try:
+                session = cffi_requests.Session(impersonate="chrome131")
+                session.get(f"https://kick.com/{CHANNEL}",
+                    headers={"User-Agent": ua, "Accept": "text/html,*/*",
+                             "sec-fetch-dest": "document", "sec-fetch-mode": "navigate"},
+                    timeout=30)
+                break
+            except Exception as e:
+                retries += 1
+                if retries < max_retries:
+                    time.sleep(2 * retries)
+                    session = None
+                else:
+                    print(f"[batch {batch_id}] SKIP: CF session fail after {max_retries} retries", file=sys.stderr)
+                    return
+        
+        if session is None:
             return
+        
         tokens = []
         for i in range(num):
-            try:
-                r = session.get("https://websockets.kick.com/viewer/v1/token",
-                    headers={
-                        "User-Agent": ua,
-                        "Accept": "application/json, text/plain, */*",
-                        "sec-ch-ua": '"Google Chrome";v="131", "Chromium";v="131"',
-                        "sec-ch-ua-mobile": "?0",
-                        "sec-ch-ua-platform": '"Windows"',
-                        "sec-fetch-dest": "empty",
-                        "sec-fetch-mode": "cors",
-                        "sec-fetch-site": "same-site",
-                        "Origin": "https://kick.com",
-                        "Referer": f"https://kick.com/{CHANNEL}",
-                        "X-CLIENT-TOKEN": CLIENT_TOKEN,
-                        "X-Device-ID": str(uuid.uuid4()),
-                        "X-Session-ID": str(uuid.uuid4()),
-                    }, timeout=15)
-                if r.status_code == 200:
-                    token = r.json().get("data", {}).get("token", "")
-                    if token:
-                        tokens.append(token)
-                elif r.status_code == 429:
-                    print(f"[batch {batch_id}] RATE LIMITED, sleep 5s", file=sys.stderr)
-                    time.sleep(5)
-                time.sleep(0.1)
-            except Exception as e:
-                print(f"[batch {batch_id}] ERR:{e}", file=sys.stderr)
-                time.sleep(1)
+            token_retry = 0
+            while token_retry < 2:
+                try:
+                    r = session.get("https://websockets.kick.com/viewer/v1/token",
+                        headers={
+                            "User-Agent": ua,
+                            "Accept": "application/json, text/plain, */*",
+                            "sec-ch-ua": '"Google Chrome";v="131", "Chromium";v="131"',
+                            "sec-ch-ua-mobile": "?0",
+                            "sec-ch-ua-platform": '"Windows"',
+                            "sec-fetch-dest": "empty",
+                            "sec-fetch-mode": "cors",
+                            "sec-fetch-site": "same-site",
+                            "Origin": "https://kick.com",
+                            "Referer": f"https://kick.com/{CHANNEL}",
+                            "X-CLIENT-TOKEN": CLIENT_TOKEN,
+                            "X-Device-ID": str(uuid.uuid4()),
+                            "X-Session-ID": str(uuid.uuid4()),
+                        }, timeout=20)
+                    if r.status_code == 200:
+                        token = r.json().get("data", {}).get("token", "")
+                        if token:
+                            tokens.append(token)
+                        break
+                    elif r.status_code == 429:
+                        print(f"[batch {batch_id}] RATE LIMITED, sleep 5s", file=sys.stderr)
+                        time.sleep(5)
+                        break
+                    else:
+                        token_retry += 1
+                        if token_retry < 2:
+                            time.sleep(1)
+                    break
+                except Exception as e:
+                    token_retry += 1
+                    if token_retry < 2:
+                        time.sleep(1)
+                    else:
+                        print(f"[batch {batch_id}] token ERR: {str(e)[:50]}", file=sys.stderr)
+            time.sleep(0.2)
+        
         with lock:
             all_tokens.extend(tokens)
             progress["ok"] += len(tokens)

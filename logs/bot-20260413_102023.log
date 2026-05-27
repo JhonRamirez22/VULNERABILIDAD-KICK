@@ -1,0 +1,831 @@
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+║   Método: curl_cffi + ViewerWS + PusherWS por viewer   ║
+╚══════════════════════════════════════════════════════════╝
+
+  Stream   : tanizen
+  Viewers  : 800
+
+  [1/3] Obteniendo info del canal...
+  Channel ID  : 2462868
+  Chatroom ID : 2455345
+  En vivo     : SI 🔴 (335 viewers) — VICECRAFT 2 - DIA 5 El Señor de los Enanillos - FamilyRP +18 - LEROY'S ELETRICALS !resumen !holyhosting
+
+  [2/3] Obteniendo viewer tokens...
+
+  Obteniendo 800 viewer tokens via curl_cffi...
+  >> Progreso: 100/800 tokens (100 procesados)
+  >> Progreso: 200/800 tokens (200 procesados)
+  >> Progreso: 300/800 tokens (300 procesados)
+  >> Progreso: 400/800 tokens (400 procesados)
+  >> Progreso: 500/800 tokens (500 procesados)
+  >> Progreso: 600/800 tokens (600 procesados)
+  >> Progreso: 700/800 tokens (700 procesados)
+  >> Progreso: 800/800 tokens (800 procesados)
+  ✅ Tokens obtenidos: 800/800
+
+  [2.5/3] Pre-cargando token pool...
+
+  Obteniendo 200 viewer tokens via curl_cffi...
+  >> Progreso: 10/200 tokens (10 procesados)
+  >> Progreso: 20/200 tokens (20 procesados)
+  >> Progreso: 30/200 tokens (30 procesados)
+  >> Progreso: 40/200 tokens (40 procesados)
+  >> Progreso: 50/200 tokens (50 procesados)
+  >> Progreso: 60/200 tokens (60 procesados)
+  >> Progreso: 70/200 tokens (70 procesados)
+  >> Progreso: 80/200 tokens (80 procesados)
+  >> Progreso: 90/200 tokens (90 procesados)
+  >> Progreso: 100/200 tokens (100 procesados)
+  >> Progreso: 110/200 tokens (110 procesados)
+  >> Progreso: 120/200 tokens (120 procesados)
+  >> Progreso: 130/200 tokens (130 procesados)
+  >> Progreso: 140/200 tokens (140 procesados)
+  >> Progreso: 150/200 tokens (150 procesados)
+  >> Progreso: 160/200 tokens (160 procesados)
+  >> Progreso: 170/200 tokens (170 procesados)
+  >> Progreso: 180/200 tokens (180 procesados)
+  >> Progreso: 190/200 tokens (190 procesados)
+  >> Progreso: 200/200 tokens (200 procesados)
+  ✅ Tokens obtenidos: 200/200
+  ✅ Token pool: 200 tokens de reserva
+
+  [3/3] Conectando 800 viewers (x2 WS cada uno)...
+
+[✅] Viewer 1: ViewerWS + PusherWS lanzados
+[✅] Viewer 2: ViewerWS + PusherWS lanzados
+[✅] Viewer 3: ViewerWS + PusherWS lanzados
+  ⏸️  Pausa de seguridad (500/800 connections barrier)...
+
+  ✅ 800 viewers lanzados. Dashboard en 10s...
+  🔄 Auto-refresh de tokens activado (cada 8 min)
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 818                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1039                                      ║
+║  RAM total   : 241.9 MB                                  ║
+║  Uptime      : 00:16:01                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 819                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1040                                      ║
+║  RAM total   : 242.2 MB                                  ║
+║  Uptime      : 00:16:11                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 819                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1040                                      ║
+║  RAM total   : 244.2 MB                                  ║
+║  Uptime      : 00:16:21                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 821                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1042                                      ║
+║  RAM total   : 242.3 MB                                  ║
+║  Uptime      : 00:16:31                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 821                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1042                                      ║
+║  RAM total   : 242.8 MB                                  ║
+║  Uptime      : 00:16:41                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 4 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 821                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1043                                      ║
+║  RAM total   : 243.3 MB                                  ║
+║  Uptime      : 00:16:51                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 4 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 822                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1043                                      ║
+║  RAM total   : 245.2 MB                                  ║
+║  Uptime      : 00:17:01                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 823                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1044                                      ║
+║  RAM total   : 240.2 MB                                  ║
+║  Uptime      : 00:17:11                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 823                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1044                                      ║
+║  RAM total   : 247.5 MB                                  ║
+║  Uptime      : 00:17:21                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 1 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 823                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1048                                      ║
+║  RAM total   : 241.3 MB                                  ║
+║  Uptime      : 00:17:34                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 1 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 827                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1048                                      ║
+║  RAM total   : 248.9 MB                                  ║
+║  Uptime      : 00:17:44                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 828                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1049                                      ║
+║  RAM total   : 243.3 MB                                  ║
+║  Uptime      : 00:17:54                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 4 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 828                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1050                                      ║
+║  RAM total   : 246.0 MB                                  ║
+║  Uptime      : 00:18:04                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 4 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 4 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 829                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1051                                      ║
+║  RAM total   : 247.6 MB                                  ║
+║  Uptime      : 00:18:14                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 4 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 830                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1051                                      ║
+║  RAM total   : 247.3 MB                                  ║
+║  Uptime      : 00:18:24                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 831                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1052                                      ║
+║  RAM total   : 252.5 MB                                  ║
+║  Uptime      : 00:18:34                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 831                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1052                                      ║
+║  RAM total   : 258.4 MB                                  ║
+║  Uptime      : 00:18:44                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 831                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1052                                      ║
+║  RAM total   : 258.6 MB                                  ║
+║  Uptime      : 00:18:54                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 832                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1053                                      ║
+║  RAM total   : 245.4 MB                                  ║
+║  Uptime      : 00:19:04                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 4 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 832                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1054                                      ║
+║  RAM total   : 248.3 MB                                  ║
+║  Uptime      : 00:19:14                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 4 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 833                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1054                                      ║
+║  RAM total   : 249.4 MB                                  ║
+║  Uptime      : 00:19:24                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 833                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1054                                      ║
+║  RAM total   : 253.0 MB                                  ║
+║  Uptime      : 00:19:34                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 833                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1054                                      ║
+║  RAM total   : 244.6 MB                                  ║
+║  Uptime      : 00:19:44                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 833                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1054                                      ║
+║  RAM total   : 243.8 MB                                  ║
+║  Uptime      : 00:19:54                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 833                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1054                                      ║
+║  RAM total   : 246.6 MB                                  ║
+║  Uptime      : 00:20:04                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 833                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1054                                      ║
+║  RAM total   : 247.8 MB                                  ║
+║  Uptime      : 00:20:14                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 833                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1054                                      ║
+║  RAM total   : 245.9 MB                                  ║
+║  Uptime      : 00:20:24                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 833                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1054                                      ║
+║  RAM total   : 247.0 MB                                  ║
+║  Uptime      : 00:20:34                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 200                                       ║
+║  Token Pool  : 0 disponibles                             ║
+║  Refreshes   : 0 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 833                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1054                                      ║
+║  RAM total   : 246.3 MB                                  ║
+║  Uptime      : 00:20:44                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+[🔄] Refrescando pool: solicitando 795 tokens...
+
+  Obteniendo 795 viewer tokens via curl_cffi...
+  >> Progreso: 100/795 tokens (100 procesados)
+  >> Progreso: 200/795 tokens (200 procesados)
+  >> Progreso: 295/795 tokens (295 procesados)
+  >> Progreso: 395/795 tokens (395 procesados)
+  >> Progreso: 495/795 tokens (495 procesados)
+  >> Progreso: 595/795 tokens (595 procesados)
+  >> Progreso: 695/795 tokens (695 procesados)
+  >> Progreso: 795/795 tokens (795 procesados)
+  ✅ Tokens obtenidos: 795/795
+[✅] Pool: 795 tokens disponibles
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 795                                       ║
+║  Token Pool  : 795 disponibles                           ║
+║  Refreshes   : 1 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 833                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1054                                      ║
+║  RAM total   : 249.2 MB                                  ║
+║  Uptime      : 00:21:39                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 795                                       ║
+║  Token Pool  : 794 disponibles                           ║
+║  Refreshes   : 1 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 790 / 800                                 ║
+║  Handshakes  : 834                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1055                                      ║
+║  RAM total   : 247.9 MB                                  ║
+║  Uptime      : 00:21:49                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 790 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 795                                       ║
+║  Token Pool  : 794 disponibles                           ║
+║  Refreshes   : 1 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 834                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1055                                      ║
+║  RAM total   : 249.3 MB                                  ║
+║  Uptime      : 00:21:59                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 795                                       ║
+║  Token Pool  : 794 disponibles                           ║
+║  Refreshes   : 1 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 834                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1055                                      ║
+║  RAM total   : 206.3 MB                                  ║
+║  Uptime      : 00:22:09                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 795                                       ║
+║  Token Pool  : 794 disponibles                           ║
+║  Refreshes   : 1 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 834                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1055                                      ║
+║  RAM total   : 205.1 MB                                  ║
+║  Uptime      : 00:22:19                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 795                                       ║
+║  Token Pool  : 794 disponibles                           ║
+║  Refreshes   : 1 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 834                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1055                                      ║
+║  RAM total   : 206.2 MB                                  ║
+║  Uptime      : 00:22:29                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+╠══════════════════════════════════════════════════════════╣
+║  Stream      : tanizen                                   ║
+║  Channel ID  : 2462868                                   ║
+╠══════════════════════════════════════════════════════════╣
+║  Tokens JWT  : 795                                       ║
+║  Token Pool  : 794 disponibles                           ║
+║  Refreshes   : 1 ciclos completados                      ║
+║  ViewerWS    : 5 / 800                                   ║
+║  PusherWS    : 800 / 800                                 ║
+║  Handshakes  : 834                                       ║
+║  Fallidos    : 0                                         ║
+║  Reconex.    : 1055                                      ║
+║  RAM total   : 205.1 MB                                  ║
+║  Uptime      : 00:22:39                                  ║
+╠══════════════════════════════════════════════════════════╣
+║  ✅ 5 ViewerWS + 800 PusherWS                              ║
+╚══════════════════════════════════════════════════════════╝
+

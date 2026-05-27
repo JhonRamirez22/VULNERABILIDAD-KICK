@@ -1,0 +1,45 @@
+
+╔══════════════════════════════════════════════════════════╗
+║   KICK VIEWER BOT v15.0 — Stable                      ║
+║   Método: curl_cffi + ViewerWS + PusherWS por viewer   ║
+╚══════════════════════════════════════════════════════════╝
+
+  Stream   : chanty
+  Viewers  : 1000
+
+  [1/3] Obteniendo info del canal...
+  Channel ID  : 3473164
+  Chatroom ID : 3464802
+  En vivo     : SI 🔴 (3661 viewers) — EL REY DEL IRL EN CDMX 🐎👑 CABALLO DE TROYA
+
+  [2/3] Obteniendo viewer tokens...
+
+  Obteniendo 1000 viewer tokens via curl_cffi...
+  >> Progreso: 100/1000 tokens (100 procesados)
+  >> Progreso: 200/1000 tokens (200 procesados)
+  >> Progreso: 300/1000 tokens (300 procesados)
+  >> Progreso: 400/1000 tokens (400 procesados)
+  >> Progreso: 500/1000 tokens (500 procesados)
+  >> Progreso: 600/1000 tokens (600 procesados)
+  >> Progreso: 700/1000 tokens (700 procesados)
+  >> Progreso: 800/1000 tokens (800 procesados)
+  >> Progreso: 900/1000 tokens (900 procesados)
+  >> Progreso: 1000/1000 tokens (1000 procesados)
+  ✅ Tokens obtenidos: 1000/1000
+
+  [2.5/3] Pre-cargando token pool...
+
+  Obteniendo 250 viewer tokens via curl_cffi...
+  >> Progreso: 50/250 tokens (50 procesados)
+  >> Progreso: 100/250 tokens (100 procesados)
+  >> Progreso: 150/250 tokens (150 procesados)
+  >> Progreso: 200/250 tokens (200 procesados)
+  >> Progreso: 250/250 tokens (250 procesados)
+  ✅ Tokens obtenidos: 250/250
+  ✅ Token pool: 250 tokens de reserva
+
+  [3/3] Conectando 1000 viewers (x2 WS cada uno)...
+
+[✅] Viewer 1: ViewerWS + PusherWS lanzados
+[✅] Viewer 2: ViewerWS + PusherWS lanzados
+[✅] Viewer 3: ViewerWS + PusherWS lanzados

@@ -1,17 +1,23 @@
 {
-  "name": "proyect",
-  "version": "1.0.0",
-  "description": "",
-  "main": "auto.js",
+  "name": "kick-viewer-bot",
+  "version": "17.0.0",
+  "description": "Kick Viewer Bot v17.0 — Browserless Edition with TLS Impersonation",
+  "main": "kick-websocket.js",
   "scripts": {
+    "start": "node kick-websocket.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "kick",
+    "viewer",
+    "bot",
+    "websocket",
+    "tls"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "playwright": "^1.58.2",
-    "ws": "^8.19.0"
+    "ws": "^8.20.0"
   }
 }
